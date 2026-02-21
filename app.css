@@ -1,0 +1,63 @@
+.logo img{
+width: 80px;
+margin-right: 5px;
+    margin: 0%;
+    padding: 0%;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.chip{
+    width: 60px;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white ;
+}
+.container{
+    position: relative;
+    background-color: black;
+    background-size: cover;
+    padding: 25px;
+    border-radius: 25px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+h5{
+    color: #fff;
+    font-size: 16px;
+}
+h3{
+    color: #fff;
+    
+    
+}
+h4{
+    color: #fff;
+}
+header,.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .card-detail{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+h4.number{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+h4.name{
+    margin-top: 20px;
+}
